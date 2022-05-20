@@ -27,10 +27,7 @@ i {
     text-align: center;
 }
 
-.headline {
-    text-align: center;
-    font-size: 20px;
-}
+
 .link {
     text-decoration: none;
     margin: 0 10px 0 10px;
@@ -39,14 +36,14 @@ i {
 .leftfooter {
     float: left;
 }
-.rightfooter {
+.rfooter {
     text-decoration: none;
     display: flex;
     float: right;
     list-style-type: none;
     padding: 15px 15px 15px 0;
 }
-.rightfooter:hover {
+.rfooter:hover {
     font-weight: bold;
 }
 a:hover {
@@ -97,6 +94,10 @@ a:hover {
 .cost {
     font-weight: bold;
     font-size: 17px;
+}
+#headline {
+    text-align: center;
+    font-size: 20px;
 }
 #headerlogo {
     display: flex;
@@ -222,7 +223,7 @@ a:hover {
     font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
-    .rightfooter {
+    .rfooter {
         font-size: 10px;
     }
     .guarantees {
@@ -314,9 +315,6 @@ a:hover {
         width: 100px;
         height: 135px;
         float: right;
-    }
-    #nav-bar {
-
     }
     #contactintro {
         font-size: 15px;
