@@ -1,0 +1,364 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    background: lightblue;
+    padding: 20px 100px;
+    margin: auto;
+    width: 600px;
+}
+i {
+    margin: 5px;
+    color: black;
+}
+.background {
+    background-color: rgb(197, 222, 230, 0.3);
+}
+.video {
+    display:block;
+    margin: auto;
+    padding: 50px;
+}
+.beforeheadline {
+    text-align: center;
+}
+
+.headline {
+    text-align: center;
+    font-size: 20px;
+}
+.link {
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: black;
+}
+.leftfooter {
+    float: left;
+}
+.rightfooter {
+    text-decoration: none;
+    display: flex;
+    float: right;
+    list-style-type: none;
+    padding: 15px 15px 15px 0;
+}
+.rightfooter:hover {
+    font-weight: bold;
+}
+a:hover {
+    font-weight: bold;
+}
+.description {
+    padding-left: 50px;
+}
+.features {
+    list-style-type: none;
+}
+.guarantees {
+    justify-items: left;
+    font-size: 25px;
+    padding: 10px 30px 10px 20px;
+}
+.icebearicon {
+    display: none;
+    width: 75px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 20px 0;
+}
+.input-section {
+    display: flex;
+    margin: 10px 0;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 0 0;
+}
+.pricecontainer {
+    border: 1px solid rgb(226, 235, 238);
+    background-color: rgb(226, 235, 238);
+}
+.pricecolumn {
+    padding: 20px 100px 20px 100px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: skyblue;
+}
+.pricedetail {
+    text-align: center;
+}
+.cost {
+    font-weight: bold;
+    font-size: 17px;
+}
+#headerlogo {
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+#icebearhouse {
+    text-align: center;
+    background-color: rgb(167, 197, 224);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#navbar {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+#navlink {
+    display: flex;
+    list-style-type: none;
+}
+#costicon {
+    color: rgb(61, 91, 61);
+}
+#efficon {
+    color: rgb(243, 243, 73);
+}
+#qualicon {
+    color: rgb(234, 67, 67);
+}
+#aboutme {
+    display: flex;
+    justify-content: space-around;
+}
+#aboutmephoto {
+    width: 150px;
+    height: 150px;
+}
+#icebearaboutme {
+    font-size: 20px;
+    padding-left: 75px;
+    font-weight: bolder;
+}
+#icebeardescribe {
+    padding: 10px 20px;
+    display: flex;
+}
+#apronimg {
+    float: left;
+    padding: 30px 100px 30px;
+    height:275px;
+    width: 200px;
+}
+#webarebearsimg{
+    width: 135px;
+    height: 135px;
+    float: left;
+}
+#bearstackimg {
+    width: 100px;
+    height: 135px;
+    float: right;
+}
+#hirebutton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    box-shadow: 1px 1px 1px ;
+    border-radius: 5px;
+    border-color: rgb(167, 197, 224);
+    background-color:rgb(167, 197, 224);
+}
+#hirebutton:active {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#hirebutton:hover {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+#socialmedia {
+    display: inline-flex;
+    flex-direction: row;
+}
+#submit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 10px;
+    box-shadow: 1px 1px 1px ;
+    border-radius: 5px;
+    border-color: rgb(167, 197, 224);
+    background-color:rgb(167, 197, 224);
+}
+#submit:hover {
+    font-weight: bold;
+}
+#submit:active {
+    font-weight: bold;
+}
+#contacticon {
+    float:left;
+    padding-right: 50px;
+}
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bar {
+    display: none;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#bar:hover {
+    background-color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .rightfooter {
+        font-size: 10px;
+    }
+    .guarantees {
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    .description {
+        padding: 0;
+        font-size: 10px;
+    }
+    .video {
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        height: 200px;
+    }
+    .beforeheadline {
+        background-image: url("icebearicon");
+    }
+    .headline {
+        font-size: 20px;
+    }
+    .icebearicon {
+        display: flex;
+    }
+    .drop {
+        position: relative;
+        display: inline-block;
+    }
+    #webarebearsimg {
+        display: none;
+    }
+    #bearstackimg {
+        display: none;
+    }
+    #apronimg {
+        display: none;
+    }
+    #hirebutton {
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+    #nav-bar {
+        position: relative;
+        display: inline-block;
+    }
+    #navlink {
+        display: none;
+    }
+    #dropcontent {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    #dropcontent a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    #contacticon {
+        display: none;
+    }
+    #form {
+        font-size: 12px;
+        width: 300px;
+        padding: 0;
+    }
+    #submit {
+        display: inline;
+        margin-bottom: 10px;
+    }
+    #bar {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    #webarebearsimg{
+        margin: 20px;
+        width: 135px;
+        height: 135px;
+        float: left;
+    }
+    #bearstackimg {
+        margin: 20px;
+        width: 100px;
+        height: 135px;
+        float: right;
+    }
+    #nav-bar {
+
+    }
+    #contactintro {
+        font-size: 15px;
+    }
+    #form {
+        font-size: 13px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .pricecolumn {
+        padding: 5px 30px 5px 30px;
+        font-size: 13px;
+        margin: 5px;
+        background-color: skyblue;
+    }
+    .cost {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    .guarantees {
+        font-size: 20px;
+    }
+    .description {
+        font-size: 15px;
+    }
+    #apronimg {
+        float: left;
+        margin: 0;
+    }
+    #aboutme {
+        display: block;
+        font-size: 12px;
+    }
+    #aboutmephoto {
+        width: 100px;
+        height: 100px;
+    }
+    #form {
+        font-size: 14px;
+        width: 500px;
+    }
+}

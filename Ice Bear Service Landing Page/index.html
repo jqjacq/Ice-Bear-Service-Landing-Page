@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/ab62147ef2.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/style.css">
+        <title>Ice Bear' House Cleaning Service </title>
+    </head>
+    <body>
+        <header>
+            <img id="headerlogo" src="img/icebearcropped.jpg">
+            <nav id="navbar">
+                <ul id="navlink" id="dropcontent">
+                    <li><a class="link" id="aboutlink" href="#aboutme">
+                        About Me</a></li>
+                    <li><a class="link" id="contactlink"
+                        href="#form">
+                        Contact Me</a></li>
+                    <li><a class="link" id="pricelink"
+                        href="#pricing">
+                        Pricing</a></li>
+                </ul>
+                <a href="javascript:void(0);" id="bar" onclick="changeNav()">
+                    <i class="fa fa-bars fa-1x"></i>
+                </a>
+            </nav> 
+        </header>
+
+        <section>
+            <div id="intro">
+                <div class="background">
+                    <img id="webarebearsimg" src="img/webearbaresprofile.jpg">
+                    <img id="bearstackimg" src="img/bearstack.jpg">
+                    <p class="beforeheadline">
+                        <img class="icebearicon" src="img/icebearicon.jpg">
+                        <p id="icebearhouse">Ice Bear's House Cleaning Service</p>
+                        <p class="headline">One of the best house cleaning services from the best bear. </p>
+                    </p>
+                    <br>
+                </div>
+                    <br>
+                
+                <div class="background">
+                    <ul class="features">
+                        <img id="apronimg" src="img/icebearprofile.jpg" width=235px;>
+                        <li class="guarantees">
+                            <i id="costicon" class="fas fa-hand-holding-usd fa-2x"></i>
+                            Absolutely Affordable </li>
+                            <span class="description">Ice Bear provides one of the most affordable services. 
+                            Almost anyone can afford it.</span>
+                        <li class="guarantees">
+                            <i id="efficon" class="fas fa-bolt fa-2x"></i>
+                            Most Efficient </li>
+                            <span class="description">Ice Bear provides a very efficient cleaning service that is guaranteed to be completed within the time requested (upon reasonable request).</span>  
+                        <li class="guarantees">
+                            <i id="qualicon" class="fas fa-air-freshener fa-2x"></i>
+                            Quality guaranteed </li>
+                            <span class="description">Ice bear can 100% guarantee an assurance of quality and customer satisfaction.</span>
+                    </ul>
+                    <br>
+                </div>
+                    <br>
+            </div> 
+        </section>
+
+        <section>
+            <div id="aboutme">
+                <div class="background">
+                    <p id="icebearaboutme">About me</p>
+                    <p id="icebeardescribe">
+                      <img id="aboutmephoto" src="img/blushicebear.jpg" style="border-radius: 50%; padding-right: 40px;">  
+                        Hello! I am Ice Bear. 
+                        <br>
+                        Ice Bear was born in the North Pole and raised by a man named Yuri.
+                        <br>
+                        Ice Bear has two bros named Panda and Grizzly.
+                        They're my best friends.
+                        Amongst them, I am the youngest.
+                        <br>
+                        Ice Bear does all the chores for Panda and Grizzly. 
+                        <br>
+                        Ice Bear loves to cook, speak multi-language, dance, engineer, and do martial arts.
+                        <br>
+                    </p>
+                    <button id="hirebutton"> HIRE ICE BEAR </button>
+                    <br>
+                </div>
+                        <br>
+                <div>
+                    <iframe class="video" width="560" height="315" 
+                    src="https://www.youtube.com/embed/2lcJOC8h9CE" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; encrypted-media;" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+            <br>
+
+        <section>
+            <div id="pricing">
+                <div class="pricecontainer">
+                    <p class="pricecolumn">Daily Clean</p>
+                        <div class="pricedetail">
+                            <br>
+                            <span class="cost">
+                                $20/day</span>
+                            <br><br>
+                            Daily clean up of whole place.
+                            <br><br>
+                            Every 10th of the session, 
+                            <br> you get 5 free session.
+                        </div>
+                        <br>
+                </div>
+                <div class="pricecontainer">
+                    <p class="pricecolumn">Monthly Clean<p>
+                        <div class="pricedetail">
+                            <br>
+                            <span class="cost">
+                                $50/month</span>
+                            <br><br>
+                            Every first of the month.
+                            <br><br>
+                            Every year of the session,
+                            <br> you get 3 free session.
+                        </div>
+                        <br>
+                </div>
+                <div class="pricecontainer">
+                    <p class="pricecolumn">1x Deep Clean<p>
+                        <div class="pricedetail">
+                            <br>
+                            <span class="cost">
+                                $100/each time</span>
+                            <br><br>
+                            Deep cleaning.
+                            <br><br>
+                            Every 5th of deep cleaning,
+                            <br> you get 1 free.
+                        </div>
+                        <br>
+                </div>
+            </div>
+        </section>
+        <br>
+        <form id="form">
+                <h2 id="contactintro" style="text-align:center">Contact Me</h2>
+                <i id="contacticon" class="fas fa-address-card fa-10x"></i>
+                <div class="input-section">
+                    <div class="input-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name"  placeholder="Joe"></input>
+                    </div>
+                    <div class="input-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name"       placeholder="Smith"></input>
+                    </div> 
+                </div>
+            
+                <div class="input-section">
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"      placeholder="joe.smith.1950@gmail.com"></input>   
+                    </div>
+                    <div class="input-group">
+                        <label for="phonenumber">Phone Number:</label>
+                        <input type="tel" id="telephone"    type="number"  pattern="[0-9]{3}-[0-9]{3}- [0-9]{4}"     placeholder="123-456-7890"></input>   
+                    </div>
+                </div>            
+
+                    <div class="input-section">
+                        <input type="checkbox" id="contract" name="contract" value="contract" class="workchoices">
+                        </input>
+                        <label for="Contract">Contract</label>
+                        <input type="checkbox" id="fulltime" name="fulltime" value="fulltime" class="workchoices">
+                        </input>
+                        <label for="Full-time">Full-time</label>
+                        <input type="checkbox"  id="sponsorship"     name="sponsorship"  value="sponsorship" class="workchoices">
+                        </input>
+                        <label for="sponsorship">Sponsorship
+                        </label>
+                        <br>
+                    </div>
+                    <button id="submit">SUBMIT</button>
+        </form>
+
+        <footer>
+            <div id="socialmedia" class="leftfooter">
+                <a href="https://www.github.com">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram-square fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.youtube.com">
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                </a>
+            </div>
+                <li class="rightfooter">Send feedback</li>
+                <li class="rightfooter">Privacy</li>
+                <li class="rightfooter">Terms</li>
+        </footer>
+
+        <script src="src/script.js"></script> 
+    </body>
+</html>
