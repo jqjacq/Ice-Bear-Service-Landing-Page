@@ -1,5 +1,6 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(173, 216, 230,0.1); ;
 }
 header {
     display: flex;
@@ -186,8 +187,10 @@ a:hover {
     font-weight:bold;
 }
 #socialmedia {
-    display: inline-flex;
+    position: absolute;
+    display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 #submit {
     display: flex;

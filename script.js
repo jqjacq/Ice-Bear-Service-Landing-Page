@@ -5,13 +5,13 @@ let headline = document.getElementById("headline")
 headline.innerHTML = "One of the best house cleaning services from the best bear."
 
 let daily = document.getElementById("daily")
-daily.innerHTML = "<span class='cost'>$20/day</span><br><br>Daily clean up of whole place. <br><br>Every 10th of the session, <br> you get 5 free session."
+daily.innerHTML = "<span class='cost'>$20/day</span><br><br>Daily clean up of whole place. <br><br>Every 10th of the session, <br> you get 5 free session. <br><br>"
 
 let month = document.getElementById("monthly")
-monthly.innerHTML = "<span class='cost'>$50/month</span><br><br>Every first of the month.<br><br>Every year of the session,<br> you get 3 free session."
+monthly.innerHTML = "<span class='cost'>$50/month</span><br><br>Every first of the month.<br><br>Every year of the session,<br> you get 3 free session. <br><br>"
 
 let deepclean = document.getElementById("deepclean")
-deepclean.innerHTML = "<span class='cost'>$100/each time</span><br><br>Deep cleaning.<br><br>Every 5th of deep cleaning,<br> you get 1 free."
+deepclean.innerHTML = "<span class='cost'>$100/each time</span><br><br>Deep cleaning.<br><br>Every 5th of deep cleaning,<br> you get 1 free. <br><br>"
 
 function changeNav() {
     let navlink = document.getElementById("navlink")
